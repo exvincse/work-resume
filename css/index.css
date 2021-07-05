@@ -108,11 +108,14 @@ body{
     padding-top: 24px;
     padding-bottom: 24px;
 }
-.l-contact__title:first-child{
+.l-contact__text{
     font-size: 32px;
+    margin-right: 16px;
+    vertical-align: middle;
 }
-.l-contact__title:last-child{
+.l-contact__subText{
     font-size: 24px;
+    vertical-align: middle;
 }
 .l-contact__list>li{
     font-size: 24px;
