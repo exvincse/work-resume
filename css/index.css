@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto-Regular.ttf");
+}
+
+body{
+    font-family: Roboto;
+}
+.l-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.l-skill{
+    max-width: 996px;
+    margin: 0 auto;
+    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.l-name{
+    font-size: 80px;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 48px;
+    line-height: 105px;
+}
+.c-headshot{
+    vertical-align: middle;
+}
+.c-headshot__big{
+    margin-bottom: 48px;
+}
+.skill, .footer{
+    background: #415165;
+}
+.skill{
+    margin-bottom: 72px;
+}
+.l-group{
+    margin-bottom: 72px;
+}
+.l-group--work{
+    margin-bottom: 72px;
+    padding-left: 24px;
+    margin-left: 23px;
+    border-left: 1px solid #96A9C4;
+}
+.l-group__item{
+    line-height: 1.5;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.l-group__title{
+    padding-bottom: 8px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 16px;
+}
+.l-group__text{
+    font-size: 32px;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+.l-group__subText{
+    font-size: 24px;
+    color: #A00404;
+    vertical-align: middle;
+}
+.l-group__content{
+    max-width: 642px;
+    font-size: 20px;
+}
+.l-group__img{
+    margin-top: -16px;
+    margin-bottom: 8px;
+}
+.l-skill__title{
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 8px;
+    margin-bottom: 37px;
+}
+.l-skill__text{
+    font-size: 32px;
+    margin-right: 16px;
+    vertical-align: middle;
+}
+.l-skill__subText{
+    font-size: 24px;
+    vertical-align: middle;
+}
+.l-skill__list{
+    margin: 0 auto;
+    max-width: 217px;
+    padding-left: 24px;
+    border-left: 1px solid #96A9C4;
+}
+.l-skill__list>li{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.l-contact__title{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 8px;
+    margin-bottom: 32px;
+}
+.footer{
+    text-align: center;
+    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.l-contact__title:first-child{
+    font-size: 32px;
+}
+.l-contact__title:last-child{
+    font-size: 24px;
+}
+.l-contact__list>li{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.l-contact__img{
+    display: flex;
+    justify-content: center;
+}
+.l-contact__img > img{
+    display: block;
+    margin-right: 24px;
+}
