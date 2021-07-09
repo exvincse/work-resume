@@ -25,10 +25,7 @@ body{
     margin-bottom: 48px;
     line-height: 105px;
 }
-.c-headshot{
-    vertical-align: middle;
-}
-.c-headshot__big{
+.l-img{
     margin-bottom: 48px;
 }
 .skill, .footer{
