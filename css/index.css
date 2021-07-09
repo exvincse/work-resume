@@ -5,6 +5,8 @@
 
 body{
     font-family: Roboto;
+    line-height: 1.5;
+    font-size: 24px;
 }
 .l-container{
     max-width: 1200px;
@@ -45,14 +47,14 @@ body{
     border-left: 1px solid #96A9C4;
 }
 .l-group__item{
-    line-height: 1.5;
-    font-size: 24px;
     margin-bottom: 24px;
 }
 .l-group__title{
     padding-bottom: 8px;
     border-bottom: 1px solid #000;
     margin-bottom: 16px;
+    display: flex;
+    align-items: center;
 }
 .l-group__text{
     font-size: 32px;
@@ -60,7 +62,6 @@ body{
     vertical-align: middle;
 }
 .l-group__subText{
-    font-size: 24px;
     color: #A00404;
     vertical-align: middle;
 }
@@ -73,10 +74,12 @@ body{
     margin-bottom: 8px;
 }
 .l-skill__title{
-    text-align: center;
     border-bottom: 1px solid #fff;
     padding-bottom: 8px;
     margin-bottom: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .l-skill__text{
     font-size: 32px;
@@ -84,7 +87,6 @@ body{
     vertical-align: middle;
 }
 .l-skill__subText{
-    font-size: 24px;
     vertical-align: middle;
 }
 .l-skill__list{
@@ -94,13 +96,15 @@ body{
     border-left: 1px solid #96A9C4;
 }
 .l-skill__list>li{
-    font-size: 24px;
     margin-bottom: 16px;
 }
 .l-contact__title{
     border-bottom: 1px solid #fff;
     padding-bottom: 8px;
     margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .footer{
     text-align: center;
@@ -114,18 +118,38 @@ body{
     vertical-align: middle;
 }
 .l-contact__subText{
-    font-size: 24px;
     vertical-align: middle;
 }
-.l-contact__list>li{
-    font-size: 24px;
+.l-contact__listItem{
     margin-bottom: 16px;
+}
+.c-link{
+    text-decoration: none;
+    color: #fff;
+}
+.c-link--hover:hover{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1px;
+}
+.c-img{
+    display: block;
+}
+.c-img--big{
+    width: 324px;
+    height: 324px;
+}
+.c-img--normal{
+    width: 90px;
+    height: 90px;
+}
+.c-img--small{
+    width: 48px;
+    height: 48px;
 }
 .l-contact__img{
     display: flex;
     justify-content: center;
 }
-.l-contact__img > img{
-    display: block;
+.l-contact__img > li{
     margin-right: 24px;
 }
